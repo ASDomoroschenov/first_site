@@ -55,18 +55,19 @@ body {
 
 .main-nav {
     float: right;
-    width: 600px;
+    width: 530px;
     margin: 0;
     margin-top: 10px;
     padding: 0;
     list-style: none;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-right: 60px;
 }
 
 .main-nav li {
     float: left;
-    margin-right: 54.46px;
+    margin-right: 30px;
     padding-top: 14px;
     padding-bottom: 13px;
     text-transform: uppercase;
@@ -123,7 +124,7 @@ body {
     float: left;
     box-sizing: border-box;
     padding-top: 85px;
-    width: 307px;
+    width: 250px;
     height: 240px;
     text-align: left;
     margin-right: 1px;
@@ -131,12 +132,13 @@ body {
 }
 
 .feature-item:first-child {
+    margin-left: 70px;
     padding-right: 90px;
     border-left: none;
 }
 
 .feature-item:nth-child(2) {
-    width: 400px;
+    width: 350px;
     padding-right: 50px;
     padding-left: 105px;
 }
@@ -144,7 +146,7 @@ body {
 .feature-item:last-child {
     padding-left: 90px;
     margin-right: 0;
-    width: 304px;
+    width: 250px;
 }
 
 .feature-title {
@@ -159,7 +161,7 @@ body {
 .feature-his {
     background-image: url("img/icon-matreshka.png");
     background-repeat: no-repeat;
-    background-position: 30% 0;
+    background-position: 35% 0;
 }
 
 .feature-themselves {
@@ -171,7 +173,7 @@ body {
 .features-save {
     background-image: url("img/icon-thumbsup.png");
     background-repeat: no-repeat;
-    background-position: 37% 0;
+    background-position: 48% 0;
 }
 
 .history {
@@ -318,12 +320,6 @@ body {
 
 .btn-next:active {
     color: #b5b2ad;
-}
-
-.press-img {
-    background-image: url("img/quotes.png");
-    background-repeat: no-repeat;
-    background-position: 10% 50%;
 }
 
 .section-title {
@@ -693,7 +689,7 @@ body {
 
 .footer-nav {
     float: right;
-    width: 600px;
+    width: 530px;
     margin: 0;
     margin-top: 10px;
     padding: 0;
@@ -707,7 +703,7 @@ body {
 
 .footer-nav li {
     float: left;
-    margin-right: 54.46px;
+    margin-right: 30px;
     padding-top: 14px;
     padding-bottom: 13px;
     text-transform: uppercase;
@@ -740,10 +736,12 @@ body {
 .footer-top {
     height: 76px;
     margin-bottom: 47px;
+    margin-left: 40px;
 }
 
 .footer-bottom {
     height: 68px;
+    margin-left: 40px;
 }
 
 .footer-copyright {
@@ -753,6 +751,7 @@ body {
     width: 300px;
     margin-right: 10px;
     font-size: 14px;
+    margin-right: 40px;
 }
 
 .footer-copyright img {
