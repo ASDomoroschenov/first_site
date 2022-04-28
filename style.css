@@ -749,10 +749,9 @@ body {
 
 .footer-copyright {
     float: right;
-    margin-top: -64px;
+    margin-top: -70px;
     height: 68px;
     width: 300px;
-    margin-right: 10px;
     font-size: 14px;
     margin-right: 40px;
 }
